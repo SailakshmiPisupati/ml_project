@@ -1,0 +1,17 @@
+import numpy as np
+import matplotlib.pyplot as plt
+import pydotplus
+from io import StringIO
+from sklearn.model_selection import cross_val_score
+from sklearn.neural_network import MLPClassifier
+from data_preprocessor import get_data
+
+def run_neural_network():
+	X_train, X_test, y_train, y_test = get_data()
+	clf = MLPClassifier(solver='lbfgs', alpha=1e-5, hidden_layer_sizes=(5, 2), random_state=0)
+	clf.fit(X_train, y_train)
+	scores = cross_val_score(clf, X_test, y_test, cv=5)
+	print("neural_network: %.15f" % scores.mean())
+
+if __name__ == '__main__':
+	run_neural_network()
