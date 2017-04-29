@@ -3,6 +3,9 @@ from sklearn.model_selection import train_test_split
 from sklearn import preprocessing
 import numpy as np
 
+def get_labels():
+	return ["meanfreq","sd","median","Q25","Q75","IQR","skew","kurt","sp.ent","sfm","mode","centroid","meanfun","minfun","maxfun","meandom","mindom","maxdom","dfrange","modindx","label"]
+
 def get_data(test_size=0.2, random_state=0):
 	with open('../voice.csv') as voicefile:
 		myFileReader = csv.reader(voicefile, delimiter=',', quotechar='|')
@@ -25,6 +28,7 @@ def get_data(test_size=0.2, random_state=0):
 
 		result = train_test_split(X, Y, test_size=test_size, random_state=random_state)
 		return list(map(lambda r: np.array(r), result))
+
 
 if __name__ == '__main__':
 	x_train, x_test, y_train, y_test = get_data()
