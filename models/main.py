@@ -8,6 +8,7 @@ from random_forest import run_random_forest
 from svm import run_svm
 from xg_boost import run_xg_boost
 from pca import run_pca
+from voting import run_voting
 from data_preprocessor import get_data
 
 if __name__ == '__main__':
@@ -36,3 +37,6 @@ if __name__ == '__main__':
 	run_random_forest(new_x_train, new_x_test, y_train, y_test)
 	run_svm(new_x_train, new_x_test, y_train, y_test)
 	run_xg_boost(new_x_train, new_x_test, y_train, y_test)
+
+	print("\n-------------------------------------\nAccuracy with Voting:\n-------------------------------------")
+	run_voting(new_x_train, new_x_test, y_train, y_test)
