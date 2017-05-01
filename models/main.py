@@ -14,7 +14,7 @@ from data_preprocessor import get_data
 if __name__ == '__main__':
 	x_train, x_test, y_train, y_test = get_data(True)
 
-	print("\n-------------------------------------\nAccuracies with 5 features:\n-------------------------------------")
+	print("\n-------------------------------------\nAccuracies with top 5 features:\n-------------------------------------")
 
 	run_decision_tree(x_train, x_test, y_train, y_test)
 	run_k_nearest_neighbour(x_train, x_test, y_train, y_test)
@@ -25,9 +25,12 @@ if __name__ == '__main__':
 	run_random_forest(x_train, x_test, y_train, y_test)
 	run_svm(x_train, x_test, y_train, y_test)
 	run_xg_boost(x_train, x_test, y_train, y_test)
+
+	print("\n-------------------------------------\nAccuracy with Voting in top 5 features:\n-------------------------------------")
+	run_voting(x_train, x_test, y_train, y_test)
 
 	x_train, x_test, y_train, y_test = get_data()
-	print("\n-------------------------------------\nAccuracies with default data:\n-------------------------------------")
+	print("\n-------------------------------------\nAccuracies with all 22 features:\n-------------------------------------")
 
 	run_decision_tree(x_train, x_test, y_train, y_test)
 	run_k_nearest_neighbour(x_train, x_test, y_train, y_test)
@@ -39,8 +42,11 @@ if __name__ == '__main__':
 	run_svm(x_train, x_test, y_train, y_test)
 	run_xg_boost(x_train, x_test, y_train, y_test)
 
-	print("\n-------------------------------------\nAccuracies with dimensionality reduction using PCA:\n-------------------------------------")
-	new_x_train, new_x_test = run_pca(x_train, x_test, y_train, y_test, 10)
+	print("\n-------------------------------------\nAccuracy with Voting in all 22 features:\n-------------------------------------")
+	run_voting(x_train, x_test, y_train, y_test)
+
+	print("\n-------------------------------------\nAccuracies with dimensionality reduction using PCA (5 components):\n-------------------------------------")
+	new_x_train, new_x_test = run_pca(x_train, x_test, y_train, y_test, 5)
 
 	run_decision_tree(new_x_train, new_x_test, y_train, y_test)
 	run_k_nearest_neighbour(new_x_train, new_x_test, y_train, y_test)
@@ -52,5 +58,5 @@ if __name__ == '__main__':
 	run_svm(new_x_train, new_x_test, y_train, y_test)
 	run_xg_boost(new_x_train, new_x_test, y_train, y_test)
 
-	print("\n-------------------------------------\nAccuracy with Voting:\n-------------------------------------")
+	print("\n-------------------------------------\nAccuracy with Voting along with PCA:\n-------------------------------------")
 	run_voting(new_x_train, new_x_test, y_train, y_test)
