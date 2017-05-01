@@ -11,8 +11,22 @@ from pca import run_pca
 from data_preprocessor import get_data
 
 if __name__ == '__main__':
-	print("\n-------------------------------------\nAccuracies with default data:\n-------------------------------------")
+	x_train, x_test, y_train, y_test = get_data(True)
+
+	print("\n-------------------------------------\nAccuracies with 5 features:\n-------------------------------------")
+
+	run_decision_tree(x_train, x_test, y_train, y_test)
+	run_k_nearest_neighbour(x_train, x_test, y_train, y_test)
+	run_logistic_regression(x_train, x_test, y_train, y_test)
+	run_naive_bayes(x_train, x_test, y_train, y_test)
+	run_neural_network(x_train, x_test, y_train, y_test)
+	run_perceptron(x_train, x_test, y_train, y_test)
+	run_random_forest(x_train, x_test, y_train, y_test)
+	run_svm(x_train, x_test, y_train, y_test)
+	run_xg_boost(x_train, x_test, y_train, y_test)
+
 	x_train, x_test, y_train, y_test = get_data()
+	print("\n-------------------------------------\nAccuracies with default data:\n-------------------------------------")
 
 	run_decision_tree(x_train, x_test, y_train, y_test)
 	run_k_nearest_neighbour(x_train, x_test, y_train, y_test)
@@ -36,3 +50,4 @@ if __name__ == '__main__':
 	run_random_forest(new_x_train, new_x_test, y_train, y_test)
 	run_svm(new_x_train, new_x_test, y_train, y_test)
 	run_xg_boost(new_x_train, new_x_test, y_train, y_test)
+
