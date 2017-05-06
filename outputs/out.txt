@@ -1,0 +1,53 @@
+s-------------------------------------
+Accuracies with top 5 features:
+-------------------------------------
+decision_tree: 0.958979346331709
+k_nearest_neighbour: 0.962153363642045
+logistic_regression: 0.963740860517435
+naive_bayes: 0.949480338395201
+neural_network: 0.965352963692039
+perceptron: 0.944768036807899
+random_forest: 0.971640263717035
+SVM: 0.963753358955131
+XG boost: 0.966903160542432
+
+-------------------------------------
+Accuracy with Voting in top 5 features:
+-------------------------------------
+Voting: 0.987381703470032
+
+-------------------------------------
+Accuracies with all 22 features:
+-------------------------------------
+decision_tree: 0.947992829021372
+k_nearest_neighbour: 0.941668228971379
+logistic_regression: 0.968490462129734
+naive_bayes: 0.869075545244344
+neural_network: 0.955879343207099
+perceptron: 0.955867040057493
+random_forest: 0.970115063742032
+SVM: 0.968527566866642
+XG boost: 0.968490657417823
+
+-------------------------------------
+Accuracy with Voting in all 22 features:
+-------------------------------------
+Voting: 0.982649842271293
+
+-------------------------------------
+Accuracies with dimensionality reduction using PCA (5 components):
+-------------------------------------
+decision_tree: 0.865989212285964
+k_nearest_neighbour: 0.902160276840395
+logistic_regression: 0.892723565804274
+naive_bayes: 0.884923564241970
+neural_network: 0.930656519497563
+perceptron: 0.818656261717285
+random_forest: 0.900671986314211
+SVM: 0.925919611611049
+XG boost: 0.914833302087239
+
+-------------------------------------
+Accuracy with Voting along with PCA:
+-------------------------------------
+Voting: 0.938485804416404
