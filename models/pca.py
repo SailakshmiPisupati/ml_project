@@ -17,7 +17,7 @@ def run_pca(x_train, x_test, y_train, y_test, n_components=2, to_generate_graph 
 	x_test_new = pca.transform(x_test)
 
 	if(to_generate_graph):
-		generate_graph(x_train_new, y_train, 'pca.png')
+		generate_graph(x_train_new, y_train, 'pca.png', 'PCA(2) plot of Voice dataset')
 
 	return x_train_new, x_test_new
 
