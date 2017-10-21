@@ -46,8 +46,8 @@ def get_data(top_features = False, test_size=0.2, random_state=0):
 if __name__ == '__main__':
 	x_train, x_test, y_train, y_test = get_data() # True
 	
-	print("\nx_train:\n")
-	print(len(x_train[0]))
+	# print("\nx_train:\n")
+	# print(len(x_train[0]))
 	# print("\nx_test:\n")
 	# print(x_test)
 	# print("\ny_train:\n")
