@@ -11,6 +11,8 @@ def run_logistic_regression(x_train, x_test, y_train, y_test):
 	clf.fit(x_train, y_train)
 	scores = cross_val_score(clf, x_test, y_test, cv=5)
 	print("logistic_regression: %.15f" % scores.mean())
+	with open("output.txt", "a") as text_file:
+		print(f"logistic_regression:",scores.mean(), file=text_file)
 
 if __name__ == '__main__':
 	x_train, x_test, y_train, y_test = get_data()

@@ -1,0 +1,567 @@
+user 4 data with 3 users.
+
+-------------------------------------
+Accuracies with features: avg_x 
+-------------------------------------
+decision_tree: 0.9800000000000001
+k_nearest_neighbour: 0.9800000000000001
+logistic_regression: 0.9800000000000001
+naive_bayes: 0.9800000000000001
+neural_network: 0.9800000000000001
+perceptron: 0.96
+random_forest: 0.9800000000000001
+SVM: 0.9800000000000001
+XG boost:: 0.9800000000000001
+
+-------------------------------------
+Accuracies with features: avg_y 
+-------------------------------------
+decision_tree: 0.9633333333333333
+k_nearest_neighbour: 0.9800000000000001
+logistic_regression: 0.96
+naive_bayes: 0.9800000000000001
+neural_network: 0.9633333333333333
+perceptron: 0.9633333333333333
+random_forest: 0.9633333333333333
+SVM: 0.9800000000000001
+XG boost:: 0.9633333333333333
+
+-------------------------------------
+Accuracies with features: avg_pressure 
+-------------------------------------
+decision_tree: 0.9618181818181817
+k_nearest_neighbour: 0.9418181818181818
+logistic_regression: 0.96
+naive_bayes: 0.96
+neural_network: 0.9418181818181818
+perceptron: 0.96
+random_forest: 0.9418181818181818
+SVM: 0.9800000000000001
+XG boost:: 0.9618181818181817
+
+-------------------------------------
+Accuracies with features: avg_size 
+-------------------------------------
+decision_tree: 0.9618181818181817
+k_nearest_neighbour: 0.9418181818181818
+logistic_regression: 0.96
+naive_bayes: 0.96
+neural_network: 0.9418181818181818
+perceptron: 0.9218181818181819
+random_forest: 0.9436363636363637
+SVM: 0.9800000000000001
+XG boost:: 0.9618181818181817
+
+-------------------------------------
+Accuracies with features: median_x 
+-------------------------------------
+decision_tree: 0.9800000000000001
+k_nearest_neighbour: 0.9218181818181819
+logistic_regression: 0.9218181818181819
+naive_bayes: 0.9800000000000001
+neural_network: 0.9800000000000001
+perceptron: 0.9800000000000001
+random_forest: 0.9800000000000001
+SVM: 0.9218181818181819
+XG boost:: 0.9800000000000001
+
+-------------------------------------
+Accuracies with features: median_y 
+-------------------------------------
+decision_tree: 0.9633333333333333
+k_nearest_neighbour: 0.9800000000000001
+logistic_regression: 0.96
+naive_bayes: 0.9800000000000001
+neural_network: 0.9800000000000001
+perceptron: 0.96
+random_forest: 0.9633333333333333
+SVM: 0.9800000000000001
+XG boost:: 0.9633333333333333
+
+-------------------------------------
+Accuracies with features: median_pressure 
+-------------------------------------
+decision_tree: 0.9418181818181818
+k_nearest_neighbour: 0.9800000000000001
+logistic_regression: 0.96
+naive_bayes: 0.96
+neural_network: 0.9800000000000001
+perceptron: 0.8933333333333333
+random_forest: 0.9618181818181817
+SVM: 0.9800000000000001
+XG boost:: 0.9418181818181818
+
+-------------------------------------
+Accuracies with features: median_size 
+-------------------------------------
+decision_tree: 0.9418181818181818
+k_nearest_neighbour: 0.9800000000000001
+logistic_regression: 0.96
+naive_bayes: 0.96
+neural_network: 0.9800000000000001
+perceptron: 0.96
+random_forest: 0.9618181818181817
+SVM: 0.9800000000000001
+XG boost:: 0.9418181818181818
+
+-------------------------------------
+Accuracies with features: std_dev_x 
+-------------------------------------
+decision_tree: 1.0
+k_nearest_neighbour: 1.0
+logistic_regression: 1.0
+naive_bayes: 1.0
+neural_network: 0.9800000000000001
+perceptron: 1.0
+random_forest: 1.0
+SVM: 1.0
+XG boost:: 1.0
+
+-------------------------------------
+Accuracies with features: std_dev_y 
+-------------------------------------
+decision_tree: 1.0
+k_nearest_neighbour: 1.0
+logistic_regression: 1.0
+naive_bayes: 1.0
+neural_network: 1.0
+perceptron: 1.0
+random_forest: 1.0
+SVM: 1.0
+XG boost:: 1.0
+
+-------------------------------------
+Accuracies with features: std_dev_pressure 
+-------------------------------------
+decision_tree: 0.8124242424242425
+k_nearest_neighbour: 0.8472727272727274
+logistic_regression: 0.739090909090909
+naive_bayes: 0.7557575757575759
+neural_network: 0.8472727272727274
+perceptron: 0.6836363636363636
+random_forest: 0.7957575757575758
+SVM: 0.8290909090909091
+XG boost:: 0.8124242424242425
+
+-------------------------------------
+Accuracies with features: std_dev_size 
+-------------------------------------
+decision_tree: 0.8124242424242425
+k_nearest_neighbour: 0.8472727272727274
+logistic_regression: 0.739090909090909
+naive_bayes: 0.7557575757575759
+neural_network: 0.8472727272727274
+perceptron: 0.6012121212121212
+random_forest: 0.7957575757575758
+SVM: 0.8290909090909091
+XG boost:: 0.8124242424242425
+
+-------------------------------------
+Accuracies with features: percent25_x 
+-------------------------------------
+decision_tree: 0.9800000000000001
+k_nearest_neighbour: 0.9800000000000001
+logistic_regression: 0.9800000000000001
+naive_bayes: 0.9800000000000001
+neural_network: 0.9800000000000001
+perceptron: 0.9633333333333333
+random_forest: 0.9800000000000001
+SVM: 0.9800000000000001
+XG boost:: 0.9800000000000001
+
+-------------------------------------
+Accuracies with features: percent50_x 
+-------------------------------------
+decision_tree: 0.9800000000000001
+k_nearest_neighbour: 0.9218181818181819
+logistic_regression: 0.9218181818181819
+naive_bayes: 0.9800000000000001
+neural_network: 0.9800000000000001
+perceptron: 0.9072727272727272
+random_forest: 0.9800000000000001
+SVM: 0.9218181818181819
+XG boost:: 0.9800000000000001
+
+-------------------------------------
+Accuracies with features: percent75_x 
+-------------------------------------
+decision_tree: 0.9800000000000001
+k_nearest_neighbour: 0.9418181818181818
+logistic_regression: 0.9418181818181818
+naive_bayes: 0.9800000000000001
+neural_network: 0.9800000000000001
+perceptron: 0.9800000000000001
+random_forest: 0.9800000000000001
+SVM: 0.9418181818181818
+XG boost:: 0.9800000000000001
+
+-------------------------------------
+Accuracies with features: percent100_x 
+-------------------------------------
+decision_tree: 0.9666666666666668
+k_nearest_neighbour: 0.8703030303030305
+logistic_regression: 0.9036363636363637
+naive_bayes: 0.8703030303030305
+neural_network: 0.9666666666666668
+perceptron: 0.9666666666666668
+random_forest: 0.9666666666666668
+SVM: 0.8903030303030304
+XG boost:: 0.9666666666666668
+
+-------------------------------------
+Accuracies with features: percent25_y 
+-------------------------------------
+decision_tree: 0.9800000000000001
+k_nearest_neighbour: 0.9800000000000001
+logistic_regression: 0.96
+naive_bayes: 0.9800000000000001
+neural_network: 0.9800000000000001
+perceptron: 0.9266666666666667
+random_forest: 0.9800000000000001
+SVM: 0.9800000000000001
+XG boost:: 0.9800000000000001
+
+-------------------------------------
+Accuracies with features: percent50_y 
+-------------------------------------
+decision_tree: 0.9633333333333333
+k_nearest_neighbour: 0.9800000000000001
+logistic_regression: 0.96
+naive_bayes: 0.9800000000000001
+neural_network: 0.9800000000000001
+perceptron: 0.96
+random_forest: 0.9451515151515151
+SVM: 0.9800000000000001
+XG boost:: 0.9633333333333333
+
+-------------------------------------
+Accuracies with features: percent75_y 
+-------------------------------------
+decision_tree: 0.96
+k_nearest_neighbour: 0.96
+logistic_regression: 0.96
+naive_bayes: 0.9800000000000001
+neural_network: 0.9800000000000001
+perceptron: 0.9800000000000001
+random_forest: 0.96
+SVM: 0.9800000000000001
+XG boost:: 0.96
+
+-------------------------------------
+Accuracies with features: percent100_y 
+-------------------------------------
+decision_tree: 1.0
+k_nearest_neighbour: 1.0
+logistic_regression: 1.0
+naive_bayes: 1.0
+neural_network: 1.0
+perceptron: 1.0
+random_forest: 1.0
+SVM: 1.0
+XG boost:: 1.0
+
+-------------------------------------
+Accuracies with features: percent25_pressure 
+-------------------------------------
+decision_tree: 0.96
+k_nearest_neighbour: 0.96
+logistic_regression: 0.96
+naive_bayes: 0.96
+neural_network: 0.96
+perceptron: 0.9800000000000001
+random_forest: 0.96
+SVM: 0.9800000000000001
+XG boost:: 0.96
+
+-------------------------------------
+Accuracies with features: percent50_pressure 
+-------------------------------------
+decision_tree: 0.9418181818181818
+k_nearest_neighbour: 0.9800000000000001
+logistic_regression: 0.96
+naive_bayes: 0.96
+neural_network: 0.9800000000000001
+perceptron: 0.96
+random_forest: 0.9418181818181818
+SVM: 0.9800000000000001
+XG boost:: 0.9418181818181818
+
+-------------------------------------
+Accuracies with features: percent75_pressure 
+-------------------------------------
+decision_tree: 0.96
+k_nearest_neighbour: 0.9251515151515152
+logistic_regression: 0.9251515151515152
+naive_bayes: 0.9451515151515151
+neural_network: 0.96
+perceptron: 0.9251515151515152
+random_forest: 0.96
+SVM: 0.9251515151515152
+XG boost:: 0.96
+
+-------------------------------------
+Accuracies with features: percent100_pressure 
+-------------------------------------
+decision_tree: 1.0
+k_nearest_neighbour: 1.0
+logistic_regression: 1.0
+naive_bayes: 1.0
+neural_network: 1.0
+perceptron: 1.0
+random_forest: 1.0
+SVM: 1.0
+XG boost:: 1.0
+
+-------------------------------------
+Accuracies with features: percent25_size 
+-------------------------------------
+decision_tree: 0.96
+k_nearest_neighbour: 0.96
+logistic_regression: 0.96
+naive_bayes: 0.96
+neural_network: 0.96
+perceptron: 0.9800000000000001
+random_forest: 0.96
+SVM: 0.9800000000000001
+XG boost:: 0.96
+
+-------------------------------------
+Accuracies with features: percent50_size 
+-------------------------------------
+decision_tree: 0.9418181818181818
+k_nearest_neighbour: 0.9800000000000001
+logistic_regression: 0.96
+naive_bayes: 0.96
+neural_network: 0.9800000000000001
+perceptron: 0.96
+random_forest: 0.9618181818181817
+SVM: 0.9800000000000001
+XG boost:: 0.9418181818181818
+
+-------------------------------------
+Accuracies with features: percent75_size 
+-------------------------------------
+decision_tree: 0.96
+k_nearest_neighbour: 0.9251515151515152
+logistic_regression: 0.9251515151515152
+naive_bayes: 0.9451515151515151
+neural_network: 0.96
+perceptron: 0.9251515151515152
+random_forest: 0.96
+SVM: 0.9251515151515152
+XG boost:: 0.96
+
+-------------------------------------
+Accuracies with features: percent100_size 
+-------------------------------------
+decision_tree: 1.0
+k_nearest_neighbour: 1.0
+logistic_regression: 1.0
+naive_bayes: 1.0
+neural_network: 1.0
+perceptron: 1.0
+random_forest: 1.0
+SVM: 1.0
+XG boost:: 1.0
+
+-------------------------------------
+Accuracies with features: userid 
+-------------------------------------
+decision_tree: 0.667878787878788
+k_nearest_neighbour: 0.667878787878788
+logistic_regression: 0.667878787878788
+naive_bayes: 0.667878787878788
+neural_network: 0.667878787878788
+perceptron: 0.5466666666666666
+random_forest: 0.667878787878788
+SVM: 0.667878787878788
+XG boost:: 0.667878787878788
+
+-------------------------------------
+Accuracies with features: mode_x 
+-------------------------------------
+decision_tree: 0.9666666666666668
+k_nearest_neighbour: 0.9666666666666668
+logistic_regression: 0.7012121212121212
+naive_bayes: 0.9466666666666667
+neural_network: 0.9666666666666668
+perceptron: 0.7666666666666667
+random_forest: 0.9666666666666668
+SVM: 0.9666666666666668
+XG boost:: 0.9666666666666668
+
+-------------------------------------
+Accuracies with features: variance_x 
+-------------------------------------
+decision_tree: 1.0
+k_nearest_neighbour: 1.0
+logistic_regression: 1.0
+naive_bayes: 1.0
+neural_network: 0.9800000000000001
+perceptron: 0.9800000000000001
+random_forest: 1.0
+SVM: 1.0
+XG boost:: 1.0
+
+-------------------------------------
+Accuracies with features: mode_y 
+-------------------------------------
+decision_tree: 0.5933333333333334
+k_nearest_neighbour: 0.6133333333333333
+logistic_regression: 0.667878787878788
+naive_bayes: 0.667878787878788
+neural_network: 0.667878787878788
+perceptron: 0.4906060606060606
+random_forest: 0.6133333333333333
+SVM: 0.667878787878788
+XG boost:: 0.5933333333333334
+
+-------------------------------------
+Accuracies with features: variance_y 
+-------------------------------------
+decision_tree: 1.0
+k_nearest_neighbour: 1.0
+logistic_regression: 1.0
+naive_bayes: 1.0
+neural_network: 1.0
+perceptron: 1.0
+random_forest: 1.0
+SVM: 1.0
+XG boost:: 1.0
+
+-------------------------------------
+Accuracies with features: mode_pressure 
+-------------------------------------
+decision_tree: 0.9800000000000001
+k_nearest_neighbour: 0.9800000000000001
+logistic_regression: 0.9800000000000001
+naive_bayes: 0.9800000000000001
+neural_network: 0.9800000000000001
+perceptron: 0.9800000000000001
+random_forest: 0.9800000000000001
+SVM: 0.9800000000000001
+XG boost:: 0.9800000000000001
+
+-------------------------------------
+Accuracies with features: mode_size 
+-------------------------------------
+decision_tree: 0.9800000000000001
+k_nearest_neighbour: 0.9800000000000001
+logistic_regression: 0.9800000000000001
+naive_bayes: 0.9800000000000001
+neural_network: 0.9800000000000001
+perceptron: 0.9800000000000001
+random_forest: 0.9800000000000001
+SVM: 0.9800000000000001
+XG boost:: 0.9800000000000001
+
+-------------------------------------
+Accuracies with features: variance_pressure 
+-------------------------------------
+decision_tree: 0.8124242424242425
+k_nearest_neighbour: 0.8472727272727274
+logistic_regression: 0.739090909090909
+naive_bayes: 0.7557575757575759
+neural_network: 0.8472727272727274
+perceptron: 0.8290909090909091
+random_forest: 0.8124242424242425
+SVM: 0.8109090909090909
+XG boost:: 0.8124242424242425
+
+-------------------------------------
+Accuracies with features: variance_size 
+-------------------------------------
+decision_tree: 0.8124242424242425
+k_nearest_neighbour: 0.8472727272727274
+logistic_regression: 0.739090909090909
+naive_bayes: 0.7557575757575759
+neural_network: 0.8472727272727274
+perceptron: 0.8290909090909091
+random_forest: 0.8124242424242425
+SVM: 0.8109090909090909
+XG boost:: 0.8124242424242425
+
+-------------------------------------
+Accuracies with features: curvature 
+-------------------------------------
+decision_tree: 0.8157575757575758
+k_nearest_neighbour: 0.8724242424242424
+logistic_regression: 0.667878787878788
+naive_bayes: 0.9087878787878788
+neural_network: 0.8487878787878789
+perceptron: 0.667878787878788
+random_forest: 0.7575757575757576
+SVM: 0.667878787878788
+XG boost:: 0.8157575757575758
+
+-------------------------------------
+Accuracies with features: slope 
+-------------------------------------
+decision_tree: 0.9651515151515152
+k_nearest_neighbour: 0.9651515151515152
+logistic_regression: 0.717878787878788
+naive_bayes: 0.9087878787878788
+neural_network: 0.9651515151515152
+perceptron: 0.7578787878787879
+random_forest: 0.9651515151515152
+SVM: 0.9818181818181818
+XG boost:: 0.9651515151515152
+
+-------------------------------------
+Accuracy with Voting in top 5 features:
+-------------------------------------
+Voting: 0.9814814814814815
+
+-------------------------------------
+Accuracy with top 5 features:
+-------------------------------------
+decision_tree: 0.9651515151515152
+k_nearest_neighbour: 0.9651515151515152
+logistic_regression: 0.717878787878788
+naive_bayes: 0.9087878787878788
+neural_network: 0.9651515151515152
+perceptron: 0.8924242424242423
+random_forest: 0.9651515151515152
+SVM: 0.9818181818181818
+XG boost:: 0.9651515151515152
+
+-------------------------------------
+Accuracy with Voting in top 5 features:
+-------------------------------------
+Voting: 0.9814814814814815
+
+-------------------------------------
+Accuracy with with all 22 features:
+-------------------------------------
+decision_tree: 0.9800000000000001
+k_nearest_neighbour: 0.9800000000000001
+logistic_regression: 0.9800000000000001
+naive_bayes: 0.9666666666666668
+neural_network: 0.9800000000000001
+perceptron: 0.96
+random_forest: 0.9800000000000001
+SVM: 0.9800000000000001
+XG boost:: 0.9800000000000001
+
+-------------------------------------
+Accuracy with with all 22 features:
+-------------------------------------
+Voting: 1.0
+
+-------------------------------------
+Accuracies with dimensionality reduction using PCA (5 components):
+-------------------------------------
+decision_tree: 0.9800000000000001
+k_nearest_neighbour: 0.9800000000000001
+logistic_regression: 0.9800000000000001
+naive_bayes: 0.9800000000000001
+neural_network: 0.9800000000000001
+perceptron: 0.96
+random_forest: 0.9800000000000001
+SVM: 1.0
+XG boost:: 0.9800000000000001
+
+-------------------------------------
+Accuracy with Voting along with PCA::
+-------------------------------------
+Voting: 1.0

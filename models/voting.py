@@ -32,6 +32,8 @@ def run_voting(x_train, x_test, y_train, y_test):
 			correct_classification_count  =  correct_classification_count + 1
 	accuracy = (correct_classification_count*1.0)/len(x_test)
 	print("Voting: %.15f" % accuracy)
+	with open("output.txt", "a") as text_file:
+		print(f"Voting:",accuracy, file=text_file)
 
 def getModels(x_train, x_test, y_train, y_test):
 	clf1 = tree.DecisionTreeClassifier()
@@ -49,7 +51,7 @@ def getModels(x_train, x_test, y_train, y_test):
 	clf5 = MLPClassifier(solver='lbfgs', alpha=1e-5, hidden_layer_sizes=(5, 2), random_state=0)
 	clf5 = clf5.fit(x_train, y_train)
 
-	clf6 = perceptron.Perceptron(penalty='l1', n_iter=50, verbose=0, random_state=None, fit_intercept=True, eta0=0.02)
+	clf6 = perceptron.Perceptron(penalty='l1', tol=None, max_iter=50, verbose=0, random_state=None, fit_intercept=True, eta0=0.02)
 	clf6 = clf6.fit(x_train, y_train)
 
 	clf7 = RandomForestClassifier(n_estimators=10)

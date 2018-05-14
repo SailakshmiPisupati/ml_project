@@ -5,7 +5,8 @@ from io import StringIO
 
 def generate_graph(x_train, y_train, file_name, title, xlabel, ylabel):
 	colors = ['navy', 'turquoise'] # 'darkorange'
-	for color, _class in zip(colors, ['male', 'female']):
+	# for color, _class in zip(colors, ['male', 'female']):
+	for color, _class in zip(colors, ['true', 'false']):
 		# _x = x_train[y_train == _class, 0]
 		# _y = np.zeros(len(_x))
 		# plt.scatter(_x, _y, color=color, alpha=.8, lw=2, label=_class)
@@ -15,7 +16,7 @@ def generate_graph(x_train, y_train, file_name, title, xlabel, ylabel):
 	plt.xlabel(xlabel)
 	plt.ylabel(ylabel)
 	# plt.show()
-	plt.savefig('../outputs/' + file_name)
+	plt.savefig('../outputs1/' + file_name)
 
 if __name__ == '__main__':
 	generate_graph()

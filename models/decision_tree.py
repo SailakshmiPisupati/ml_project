@@ -12,12 +12,17 @@ def run_decision_tree(x_train, x_test, y_train, y_test, generate_graph = False, 
 	clf = clf.fit(x_train, y_train)
 	scores = cross_val_score(clf, x_test, y_test, cv=5)
 	print("decision_tree: %.15f" % scores.mean())
+	# text_file = open("Output.txt", "w")
+	# text_file.write("Purchase Amount: %s" % TotalAmount)
+	# text_file.close()
+	with open("output.txt", "a") as text_file:
+		print(f"decision_tree:",scores.mean(), file=text_file)
 
 	if(generate_graph):
 		dotfile = StringIO()
-		tree.export_graphviz(clf, out_file = dotfile, class_names = ['female', 'male'], rounded = True, feature_names = get_labels(), max_depth = max_depth)
+		tree.export_graphviz(clf, out_file = dotfile, class_names = ['true', 'false'], rounded = True, feature_names = get_labels(), max_depth = max_depth)
 		graph = pydotplus.graph_from_dot_data(dotfile.getvalue())
-		graph.write_pdf("../outputs/decision_tree.pdf")
+		graph.write_pdf("../outputs1/decision_tree.pdf")
 
 def plot_top_2_features(x_train, x_test, y_train, y_test):
 	generate_graph(x_train, y_train, 'dt_top_2.png', 'Plot of Top 2 features of Voice Dataset', 'Mean frequency', 'Interquartile Range')
